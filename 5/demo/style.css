@@ -1,0 +1,53 @@
+@import url("./aboutus.css");
+@import url("./contactus.css");
+@import url("./home.css");
+
+p, 
+span{
+  display: inline-block;
+  width: 200px;
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+.button {
+  padding: 6px 12px;
+  background-color: lightsalmon;
+  border-radius: 6px;
+  border: none;
+  width: 30%;
+}
+
+.button.fill{
+  max-width: 100px;
+}
+
+.button.hover{
+  max-width: 100px;
+}
+
+/* ARTICLE EXAMPLE */
+
+article{
+  max-width: 500px;
+  background-color: lightblue;
+}
+
+article p{
+  width: 50%;
+  background-color: lightblue;
+}
+
+#btnsExample{
+  margin: 50px;
+}
+
+.customBtn{
+  padding: 6px 12px;
+  background-color: lightgray;
+  border-radius: 6px;
+  border: none;
+  /* min-width: 120px; */
+  width: 100%;
+  max-width: 150px;
+}

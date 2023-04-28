@@ -1,0 +1,2 @@
+CTRL + /    (comment)
+CTRL + SPACE (html template)
